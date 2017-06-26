@@ -1,21 +1,17 @@
-/** body {width: 1000px; } -> NEREAGUOJA **/
+body{
+    margin:0;
+}
 
-/**
 #bodywidth{
     width: 1000px;
     height: auto;
     margin: 0 auto;
 }
-**/
 
-body{
-    margin:0;
-}
 
 header {
     overflow:hidden;
-     width: 100%;
-     /**width: 1000px;  #F1F1F1**/
+    width: 100%;
     background-color: #2E2E2E;
     height: 60px;
     margin-top: 0;
@@ -36,7 +32,7 @@ ul#menu {
     text-decoration: none;
     margin-top: 10px;
     padding-right: 3px;
-    margin-left: 0px;
+    margin-left: 0;
 
 }
 
@@ -55,7 +51,7 @@ div#nav {
     overflow:hidden;
     width: 100%;
     background-color: antiquewhite;
-    border-bottom: 5px solid blue;
+
 
 }
 
@@ -63,6 +59,9 @@ div#nav {
 ul#navigation {
     list-style-type: none;
     padding-left: 20px;
+    width: 960px;
+    border-bottom: 5px solid #F1F1F1;
+    height: 50px;
 }
 
 
@@ -76,8 +75,18 @@ ul#navigation {
     padding-top: 20px;
     padding-bottom:15px;
     padding-left: 20px;
-    border-bottom: 5px solid grey;
 
 }
 
-#navigation li:hover .border {}
+.liBorder {
+    float: left;
+    border-bottom: 5px solid #F1F1F1;
+    height:50px;
+}
+
+
+
+#navigation li:hover  {
+                    color: #9F9F9F;
+                    border-bottom: 5px solid #0099FF;
+}
