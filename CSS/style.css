@@ -13,8 +13,8 @@ body{
 }
 
 #top_bar {
-    /** position: absolute;
-     top: 0; **/
+    position: absolute;
+    top:0;
      width: 100%;
      /**width: 1000px;**/
     background-color: #2E2E2E;
@@ -35,7 +35,7 @@ ul#menu {
     font-size: 12px;
     color: #9F9F9F;
     text-decoration: none;
-    padding-top: 25px;
+    margin-top: 10px;
     padding-right: 3px;
     margin-left: 0px;
 
@@ -47,17 +47,14 @@ ul#icons {
 
 #icons li {
     float: right;
-    padding-top: 15px;
-    padding-bottom: 10px;
     padding-left: 10px;
     font-size: 0;
 }
 
 
-
 header {
     position: absolute;
-   /** top: 60px; **/
+    top: 60px;
     width: 100%;
     background-color: antiquewhite;
 
@@ -67,9 +64,6 @@ header {
 ul#navigation {
     list-style-type: none;
     padding-left: 20px;
-
-
-
 }
 
 
@@ -80,8 +74,10 @@ ul#navigation {
     color: black;
     text-decoration: none;
     font-weight: normal;
-    padding-top: 10px;
-    padding-bottom:20px;
+    padding-top: 20px;
+    padding-bottom:15px;
     padding-left: 20px;
+    border-bottom: 7px solid #F1F1F1;
+
 }
 
